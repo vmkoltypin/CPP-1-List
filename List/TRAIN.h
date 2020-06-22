@@ -5,9 +5,9 @@ using namespace std;
 class Train
 {
 private:
-	string dest;
-	int num;
-	int time;
+	string dest = "";
+	int num = 0;
+	int time = 0;
 public:
 	Train();
 	Train(string dest, int num,int time);

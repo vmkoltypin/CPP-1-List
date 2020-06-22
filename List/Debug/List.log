@@ -1,13 +1,3 @@
-﻿TRAIN.obj : error LNK2005: "public: __thiscall Train::Train(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (??0Train@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: __thiscall Train::Train(void)" (??0Train@@QAE@XZ) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: class Train & __thiscall Train::operator=(class Train const &)" (??4Train@@QAEAAV0@ABV0@@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class Train &)" (??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVTrain@@@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Train const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVTrain@@@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: bool __thiscall Train::operator==(class Train const &)" (??8Train@@QAE_NABV0@@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: bool __thiscall Train::operator!=(class Train const &)" (??9Train@@QAE_NABV0@@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: bool __thiscall Train::operator<(class Train const &)" (??MTrain@@QAE_NABV0@@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: bool __thiscall Train::operator>(class Train const &)" (??OTrain@@QAE_NABV0@@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: static int __cdecl Train::compNum(void const *,void const *)" (?compNum@Train@@SAHPBX0@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: bool __thiscall Train::compare(class Train const &,class Train const &)" (?compare@Train@@QAE_NABV1@0@Z) уже определен в MainPanel.obj
-TRAIN.obj : error LNK2005: "public: int __thiscall Train::getNum(void)" (?getNum@Train@@QAEHXZ) уже определен в MainPanel.obj
-C:\Users\Koltypin\source\repos\List\Debug\List.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+﻿  MainPanel.cpp
+C:\Users\Koltypin\source\repos\List\List\List.h(101): warning C4715: List<Train>::operator[]: значение возвращается не при всех путях выполнения
+  List.vcxproj -> C:\Users\Koltypin\source\repos\List\Debug\List.exe

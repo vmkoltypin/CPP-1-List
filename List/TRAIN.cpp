@@ -62,18 +62,6 @@ bool Train::compare(const Train& a,const Train& b)
 	return a.num > b.num;
 }
 
-//int Train::compNum(const void* a, const void* b)
-//{
-//	Train A = *(Train*)a;
-//	Train B = *(Train*)b;
-//	if (A > B)
-//		return 1;
-//	else if (A == B)
-//		return 0;
-//	else
-//		return -1;
-//}
-
 ostream& operator<<(ostream& os, const Train& a)
 {
 	return os  << a.dest <<" "<< a.num << " " << a.time;

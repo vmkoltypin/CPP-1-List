@@ -147,7 +147,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="List.cpp" />
     <ClCompile Include="MainPanel.cpp" />
     <ClCompile Include="TRAIN.cpp" />
   </ItemGroup>
